@@ -93,7 +93,7 @@ struct st_ad {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CH : 3;
 			unsigned char  : 2;
@@ -112,7 +112,7 @@ struct st_ad {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MODE : 2;
 			unsigned char CKS : 2;
@@ -129,7 +129,7 @@ struct st_ad {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char EXSEL : 2;
@@ -148,7 +148,7 @@ struct st_ad {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DIAG : 2;
 			unsigned char  : 6;
@@ -164,7 +164,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char STSCLR : 1;
 			unsigned char  : 7;
@@ -178,7 +178,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IGAEN : 1;
 			unsigned char TOEN : 1;
@@ -194,7 +194,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IA : 1;
 			unsigned char TO : 1;
@@ -214,7 +214,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 3;
 			unsigned short ADDR : 13;
@@ -228,7 +228,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short BPRA : 2;
 			unsigned short BPRO : 2;
@@ -254,7 +254,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -279,7 +279,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -304,7 +304,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -346,7 +346,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -371,7 +371,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -396,7 +396,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -438,7 +438,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -463,7 +463,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -488,7 +488,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -530,7 +530,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -555,7 +555,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -580,7 +580,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -622,7 +622,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -647,7 +647,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -672,7 +672,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -714,7 +714,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -739,7 +739,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -764,7 +764,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -806,7 +806,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -831,7 +831,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -856,7 +856,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -898,7 +898,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short WRMOD : 1;
 			unsigned short  : 2;
@@ -923,7 +923,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSPWWAIT : 3;
 			unsigned long  : 5;
@@ -948,7 +948,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CSROFF : 3;
 			unsigned long  : 1;
@@ -990,7 +990,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1016,7 +1016,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1034,7 +1034,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1060,7 +1060,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1078,7 +1078,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1104,7 +1104,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1122,7 +1122,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1148,7 +1148,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1166,7 +1166,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1192,7 +1192,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1210,7 +1210,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1236,7 +1236,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1254,7 +1254,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1280,7 +1280,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1298,7 +1298,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EXENB : 1;
 			unsigned short  : 3;
@@ -1324,7 +1324,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RRCV : 4;
 			unsigned short  : 4;
@@ -1342,7 +1342,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RCVEN0 : 1;
 			unsigned short RCVEN1 : 1;
@@ -1384,7 +1384,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char EXENB : 1;
 			unsigned char  : 3;
@@ -1401,7 +1401,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char EMODE : 1;
 			unsigned char  : 7;
@@ -1414,7 +1414,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BE : 1;
 			unsigned char  : 7;
@@ -1428,7 +1428,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SFEN : 1;
 			unsigned char  : 7;
@@ -1442,7 +1442,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RFC : 12;
 			unsigned short REFW : 4;
@@ -1455,7 +1455,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RFEN : 1;
 			unsigned char  : 7;
@@ -1469,7 +1469,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char INIRQ : 1;
 			unsigned char  : 7;
@@ -1483,7 +1483,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ARFI : 4;
 			unsigned short ARFC : 4;
@@ -1501,7 +1501,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MXC : 2;
 			unsigned char  : 6;
@@ -1515,7 +1515,7 @@ struct st_bsc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CL : 3;
 			unsigned long  : 5;
@@ -1540,7 +1540,7 @@ struct st_bsc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short MR : 15;
 			unsigned short  : 1;
@@ -1554,7 +1554,7 @@ struct st_bsc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MRSST : 1;
 			unsigned char  : 2;
@@ -1587,7 +1587,7 @@ struct st_can {
 				unsigned char LL;
 			} BYTE;
 			struct {
-				
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long EID : 18;
 			unsigned long SID : 11;
@@ -1620,7 +1620,7 @@ struct st_can {
 			unsigned char LL;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long EID : 18;
 			unsigned long SID : 11;
@@ -1645,7 +1645,7 @@ struct st_can {
 			unsigned char LL;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long EID : 18;
 			unsigned long SID : 11;
@@ -1674,7 +1674,7 @@ struct st_can {
 			unsigned char LL;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long EID : 18;
 			unsigned long SID : 11;
@@ -1703,7 +1703,7 @@ struct st_can {
 			unsigned char LL;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MB0 : 1;
 			unsigned long MB1 : 1;
@@ -1786,7 +1786,7 @@ struct st_can {
 			unsigned char LL;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MB0 : 1;
 			unsigned long MB1 : 1;
@@ -1861,7 +1861,7 @@ struct st_can {
 		unsigned char BYTE;
 		union {
 			struct {
-				
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SENTDATA : 1;
 			unsigned char TRMACTIVE : 1;
@@ -1883,7 +1883,7 @@ struct st_can {
 #endif
 	} TX;
 			struct {
-				
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NEWDATA : 1;
 			unsigned char INVALDATA : 1;
@@ -1913,7 +1913,7 @@ struct st_can {
 			unsigned char L;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short MBM : 1;
 			unsigned short IDFM : 2;
@@ -1948,7 +1948,7 @@ struct st_can {
 			unsigned char L;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short NDST : 1;
 			unsigned short SDST : 1;
@@ -1999,7 +1999,7 @@ struct st_can {
 			unsigned char LL;
 		} BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CCLKS : 1;
 			unsigned long  : 7;
@@ -2026,7 +2026,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RFE : 1;
 			unsigned char RFUST : 3;
@@ -2048,7 +2048,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TFE : 1;
 			unsigned char TFUST : 3;
@@ -2068,7 +2068,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BEIE : 1;
 			unsigned char EWIE : 1;
@@ -2093,7 +2093,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BEIF : 1;
 			unsigned char EWIF : 1;
@@ -2120,7 +2120,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SEF : 1;
 			unsigned char FEF : 1;
@@ -2146,7 +2146,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MBNST : 5;
 			unsigned char  : 2;
@@ -2161,7 +2161,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MBSM : 2;
 			unsigned char  : 6;
@@ -2176,7 +2176,7 @@ struct st_can {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TSTE : 1;
 			unsigned char TSTM : 2;
@@ -2194,7 +2194,7 @@ struct st_cmt {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short STR0 : 1;
 			unsigned short STR1 : 1;
@@ -2210,7 +2210,7 @@ struct st_cmt {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short STR2 : 1;
 			unsigned short STR3 : 1;
@@ -2228,7 +2228,7 @@ struct st_cmt0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CKS : 2;
 			unsigned short  : 4;
@@ -2250,7 +2250,7 @@ struct st_crc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char GPS : 2;
 			unsigned char LMS : 1;
@@ -2274,7 +2274,7 @@ struct st_da {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 5;
 			unsigned char DAE : 1;
@@ -2291,7 +2291,7 @@ struct st_da {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char DPSEL : 1;
@@ -2304,7 +2304,7 @@ struct st_da {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char DAADST : 1;
@@ -2320,7 +2320,7 @@ struct st_dmac {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DMST : 1;
 			unsigned char  : 7;
@@ -2341,7 +2341,7 @@ struct st_dmac0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DCTG : 2;
 			unsigned short  : 6;
@@ -2363,7 +2363,7 @@ struct st_dmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DARIE : 1;
 			unsigned char SARIE : 1;
@@ -2384,7 +2384,7 @@ struct st_dmac0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DARA : 5;
 			unsigned short  : 1;
@@ -2407,7 +2407,7 @@ struct st_dmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DTE : 1;
 			unsigned char  : 7;
@@ -2420,7 +2420,7 @@ struct st_dmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SWREQ : 1;
 			unsigned char  : 3;
@@ -2437,7 +2437,7 @@ struct st_dmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ESIF : 1;
 			unsigned char  : 3;
@@ -2456,7 +2456,7 @@ struct st_dmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DISEL : 1;
 			unsigned char  : 7;
@@ -2477,7 +2477,7 @@ struct st_dmac1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DCTG : 2;
 			unsigned short  : 6;
@@ -2499,7 +2499,7 @@ struct st_dmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DARIE : 1;
 			unsigned char SARIE : 1;
@@ -2520,7 +2520,7 @@ struct st_dmac1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DARA : 5;
 			unsigned short  : 1;
@@ -2542,7 +2542,7 @@ struct st_dmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DTE : 1;
 			unsigned char  : 7;
@@ -2555,7 +2555,7 @@ struct st_dmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SWREQ : 1;
 			unsigned char  : 3;
@@ -2572,7 +2572,7 @@ struct st_dmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ESIF : 1;
 			unsigned char  : 3;
@@ -2591,7 +2591,7 @@ struct st_dmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DISEL : 1;
 			unsigned char  : 7;
@@ -2607,7 +2607,7 @@ struct st_dtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char RRS : 1;
@@ -2624,7 +2624,7 @@ struct st_dtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SHORT : 1;
 			unsigned char  : 7;
@@ -2638,7 +2638,7 @@ struct st_dtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DTCST : 1;
 			unsigned char  : 7;
@@ -2652,7 +2652,7 @@ struct st_dtc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short VECN : 8;
 			unsigned short  : 7;
@@ -2670,7 +2670,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long SWR : 1;
 			unsigned long  : 3;
@@ -2690,7 +2690,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long TR : 1;
 			unsigned long  : 31;
@@ -2704,7 +2704,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long RR : 1;
 			unsigned long  : 31;
@@ -2722,7 +2722,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CERF : 1;
 			unsigned long PRE : 1;
@@ -2784,7 +2784,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CERFIP : 1;
 			unsigned long PREIP : 1;
@@ -2846,7 +2846,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CERFCE : 1;
 			unsigned long PRECE : 1;
@@ -2880,7 +2880,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MFC : 16;
 			unsigned long  : 16;
@@ -2894,7 +2894,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long TFT : 11;
 			unsigned long  : 21;
@@ -2908,7 +2908,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long RFD : 5;
 			unsigned long  : 3;
@@ -2926,7 +2926,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long RNR : 1;
 			unsigned long RNC : 1;
@@ -2942,7 +2942,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long UNDER : 16;
 			unsigned long  : 16;
@@ -2955,7 +2955,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long OVER : 16;
 			unsigned long  : 16;
@@ -2968,7 +2968,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long ELB : 1;
 			unsigned long  : 31;
@@ -2981,7 +2981,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long RFDO : 3;
 			unsigned long  : 13;
@@ -2999,7 +2999,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long PADR : 6;
 			unsigned long  : 10;
@@ -3016,7 +3016,7 @@ struct st_edmac {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long TIS : 1;
 			unsigned long  : 3;
@@ -3042,7 +3042,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long PRM : 1;
 			unsigned long DM : 1;
@@ -3088,7 +3088,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long RFL : 12;
 			unsigned long  : 20;
@@ -3102,7 +3102,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long ICD : 1;
 			unsigned long MPD : 1;
@@ -3126,7 +3126,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long ICDIP : 1;
 			unsigned long MPDIP : 1;
@@ -3150,7 +3150,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MDC : 1;
 			unsigned long MMD : 1;
@@ -3170,7 +3170,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long LMON : 1;
 			unsigned long  : 31;
@@ -3184,7 +3184,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long RMD : 20;
 			unsigned long  : 12;
@@ -3198,7 +3198,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long IPG : 5;
 			unsigned long  : 27;
@@ -3211,7 +3211,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long AP : 16;
 			unsigned long  : 16;
@@ -3224,7 +3224,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MP : 16;
 			unsigned long  : 16;
@@ -3238,7 +3238,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long RPAUSE : 8;
 			unsigned long  : 24;
@@ -3251,7 +3251,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long TPAUSE : 16;
 			unsigned long  : 16;
@@ -3264,7 +3264,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long TXP : 8;
 			unsigned long  : 24;
@@ -3277,7 +3277,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long BCF : 16;
 			unsigned long  : 16;
@@ -3293,7 +3293,7 @@ struct st_etherc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MA : 16;
 			unsigned long  : 16;
@@ -3321,7 +3321,7 @@ struct st_exdmac {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DMST : 1;
 			unsigned char  : 7;
@@ -3351,7 +3351,7 @@ struct st_exdmac0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DCTG : 2;
 			unsigned short  : 6;
@@ -3372,7 +3372,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DACKSEL : 1;
 			unsigned char DACKW : 1;
@@ -3391,7 +3391,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DARIE : 1;
 			unsigned char SARIE : 1;
@@ -3412,7 +3412,7 @@ struct st_exdmac0 {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long DARA : 5;
 			unsigned long  : 1;
@@ -3440,7 +3440,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DTE : 1;
 			unsigned char  : 7;
@@ -3453,7 +3453,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SWREQ : 1;
 			unsigned char  : 3;
@@ -3470,7 +3470,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ESIF : 1;
 			unsigned char  : 3;
@@ -3490,7 +3490,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DREQS : 2;
 			unsigned char  : 6;
@@ -3503,7 +3503,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char EREQ : 1;
 			unsigned char  : 7;
@@ -3516,7 +3516,7 @@ struct st_exdmac0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PREQ : 1;
 			unsigned char  : 7;
@@ -3537,7 +3537,7 @@ struct st_exdmac1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DCTG : 2;
 			unsigned short  : 6;
@@ -3558,7 +3558,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DACKSEL : 1;
 			unsigned char DACKW : 1;
@@ -3577,7 +3577,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DARIE : 1;
 			unsigned char SARIE : 1;
@@ -3598,7 +3598,7 @@ struct st_exdmac1 {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long DARA : 5;
 			unsigned long  : 1;
@@ -3626,7 +3626,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DTE : 1;
 			unsigned char  : 7;
@@ -3639,7 +3639,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SWREQ : 1;
 			unsigned char  : 3;
@@ -3656,7 +3656,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ESIF : 1;
 			unsigned char  : 3;
@@ -3676,7 +3676,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DREQS : 2;
 			unsigned char  : 6;
@@ -3689,7 +3689,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char EREQ : 1;
 			unsigned char  : 7;
@@ -3702,7 +3702,7 @@ struct st_exdmac1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PREQ : 1;
 			unsigned char  : 7;
@@ -3718,7 +3718,7 @@ struct st_flash {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char FLWE : 2;
 			unsigned char  : 6;
@@ -3732,7 +3732,7 @@ struct st_flash {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char FRDMD : 1;
@@ -3748,7 +3748,7 @@ struct st_flash {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DFLWPE : 1;
 			unsigned char DFLRPE : 1;
@@ -3771,7 +3771,7 @@ struct st_flash {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DFLWPEIE : 1;
 			unsigned char DFLRPEIE : 1;
@@ -3794,7 +3794,7 @@ struct st_flash {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char FRDYIE : 1;
 			unsigned char  : 7;
@@ -3808,7 +3808,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DBRE00 : 1;
 			unsigned short DBRE01 : 1;
@@ -3835,7 +3835,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DBRE08 : 1;
 			unsigned short DBRE09 : 1;
@@ -3863,7 +3863,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DBWE00 : 1;
 			unsigned short DBWE01 : 1;
@@ -3890,7 +3890,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DBWE08 : 1;
 			unsigned short DBWE09 : 1;
@@ -3917,7 +3917,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FCRME : 1;
 			unsigned short  : 7;
@@ -3933,7 +3933,7 @@ struct st_flash {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PRGSPD : 1;
 			unsigned char ERSSPD : 1;
@@ -3958,7 +3958,7 @@ struct st_flash {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char FLOCKST : 1;
@@ -3975,7 +3975,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FENTRY0 : 1;
 			unsigned short FENTRY1 : 1;
@@ -3998,7 +3998,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FPROTCN : 1;
 			unsigned short  : 7;
@@ -4013,7 +4013,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FRESET : 1;
 			unsigned short  : 7;
@@ -4029,7 +4029,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PCMDR : 8;
 			unsigned short CMDR : 8;
@@ -4043,7 +4043,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ESUSPMD : 1;
 			unsigned short  : 15;
@@ -4056,7 +4056,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short BCADR : 11;
 			unsigned short  : 4;
@@ -4071,7 +4071,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PEERRST : 8;
 			unsigned short  : 8;
@@ -4084,7 +4084,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short BCST : 1;
 			unsigned short  : 15;
@@ -4098,7 +4098,7 @@ struct st_flash {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PCKA : 8;
 			unsigned short  : 8;
@@ -4133,7 +4133,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IR : 1;
 			unsigned char  : 7;
@@ -4147,7 +4147,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DTCE : 1;
 			unsigned char  : 7;
@@ -4161,7 +4161,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IEN0 : 1;
 			unsigned char IEN1 : 1;
@@ -4187,7 +4187,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SWINT : 1;
 			unsigned char  : 7;
@@ -4201,7 +4201,7 @@ struct st_icu {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FVCT : 8;
 			unsigned short  : 7;
@@ -4217,7 +4217,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IPR : 4;
 			unsigned char  : 4;
@@ -4239,7 +4239,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 2;
 			unsigned char IRQMD : 2;
@@ -4254,7 +4254,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char FLTEN0 : 1;
 			unsigned char FLTEN1 : 1;
@@ -4279,7 +4279,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char FLTEN8 : 1;
 			unsigned char FLTEN9 : 1;
@@ -4305,7 +4305,7 @@ struct st_icu {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FCLKSEL0 : 2;
 			unsigned short FCLKSEL1 : 2;
@@ -4330,7 +4330,7 @@ struct st_icu {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FCLKSEL8 : 2;
 			unsigned short FCLKSEL9 : 2;
@@ -4356,7 +4356,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NMIST : 1;
 			unsigned char OSTST : 1;
@@ -4379,7 +4379,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NMIEN : 1;
 			unsigned char OSTEN : 1;
@@ -4402,7 +4402,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NMICLR : 1;
 			unsigned char OSTCLR : 1;
@@ -4425,7 +4425,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char NMIMD : 1;
@@ -4441,7 +4441,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFLTEN : 1;
 			unsigned char  : 7;
@@ -4455,7 +4455,7 @@ struct st_icu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFCLKSEL : 2;
 			unsigned char  : 6;
@@ -4469,7 +4469,7 @@ struct st_icu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long IS0 : 1;
 			unsigned long IS1 : 1;
@@ -4513,7 +4513,7 @@ struct st_icu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long EN0 : 1;
 			unsigned long EN1 : 1;
@@ -4557,7 +4557,7 @@ struct st_icu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CLR0 : 1;
 			unsigned long CLR1 : 1;
@@ -4601,7 +4601,7 @@ struct st_icu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CN0 : 1;
 			unsigned long CN1 : 1;
@@ -4627,7 +4627,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char RE : 1;
@@ -4648,7 +4648,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CMD : 3;
 			unsigned char  : 5;
@@ -4661,7 +4661,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CTL : 4;
 			unsigned char RN : 3;
@@ -4676,7 +4676,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char STE : 1;
 			unsigned char  : 1;
@@ -4693,7 +4693,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IARU8 : 8;
 #else
@@ -4704,7 +4704,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char ISAL4 : 4;
@@ -4717,7 +4717,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ISAU8 : 8;
 #else
@@ -4728,7 +4728,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IBFL : 8;
 #else
@@ -4740,7 +4740,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char IMAL4 : 4;
@@ -4753,7 +4753,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IMAU8 : 8;
 #else
@@ -4764,7 +4764,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RCTL : 4;
 			unsigned char  : 4;
@@ -4777,7 +4777,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RBFL : 8;
 #else
@@ -4789,7 +4789,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ILAL8 : 8;
 #else
@@ -4800,7 +4800,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ILAU4 : 4;
 			unsigned char  : 4;
@@ -4813,7 +4813,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char GG : 1;
 			unsigned char RSS : 1;
@@ -4838,7 +4838,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TXEACK : 1;
 			unsigned char TXERO : 1;
@@ -4863,7 +4863,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TXEACKE : 1;
 			unsigned char TXEROE : 1;
@@ -4889,7 +4889,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RXEPE : 1;
 			unsigned char RXEDLE : 1;
@@ -4914,7 +4914,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RXEPEE : 1;
 			unsigned char RXEDLEE : 1;
@@ -4940,7 +4940,7 @@ struct st_ieb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKS : 3;
 			unsigned char SRSTP : 1;
@@ -4968,7 +4968,7 @@ struct st_iwdt {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short TOPS : 2;
 			unsigned short  : 2;
@@ -4991,7 +4991,7 @@ struct st_iwdt {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CNTVAL : 14;
 			unsigned short UNDFF : 1;
@@ -5006,7 +5006,7 @@ struct st_iwdt {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char RSTIRQS : 1;
@@ -5020,7 +5020,7 @@ struct st_iwdt {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char SLCSTP : 1;
@@ -5036,7 +5036,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CS0E : 1;
 			unsigned char CS1E : 1;
@@ -5062,7 +5062,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CS0S : 1;
 			unsigned char  : 1;
@@ -5081,7 +5081,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CS4S : 2;
 			unsigned char CS5S : 2;
@@ -5098,7 +5098,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char A8E : 1;
 			unsigned char A9E : 1;
@@ -5123,7 +5123,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char A16E : 1;
 			unsigned char A17E : 1;
@@ -5148,7 +5148,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ADRLE : 1;
 			unsigned char ADRHMS : 1;
@@ -5171,7 +5171,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char WAITS : 2;
 			unsigned char ALEOE : 1;
@@ -5195,7 +5195,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char PHYMODE : 1;
@@ -5211,7 +5211,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 2;
 			unsigned char PUPHZS : 1;
@@ -5228,7 +5228,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 2;
 			unsigned char PUPHZS : 1;
@@ -5244,7 +5244,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char PFSWE : 1;
@@ -5260,7 +5260,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5277,7 +5277,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5294,7 +5294,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5311,7 +5311,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5329,7 +5329,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5347,7 +5347,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5364,7 +5364,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5381,7 +5381,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5398,7 +5398,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5415,7 +5415,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5432,7 +5432,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5449,7 +5449,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5466,7 +5466,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5483,7 +5483,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5500,7 +5500,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5517,7 +5517,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5534,7 +5534,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5547,7 +5547,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5560,7 +5560,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5573,7 +5573,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5586,7 +5586,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5599,7 +5599,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5612,7 +5612,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5629,7 +5629,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5646,7 +5646,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5663,7 +5663,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5680,7 +5680,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5698,7 +5698,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5713,7 +5713,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5728,7 +5728,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5743,7 +5743,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5758,7 +5758,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5773,7 +5773,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5788,7 +5788,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5803,7 +5803,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char ISEL : 1;
@@ -5818,7 +5818,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5831,7 +5831,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5844,7 +5844,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5858,7 +5858,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5871,7 +5871,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5888,7 +5888,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5901,7 +5901,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5914,7 +5914,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5927,7 +5927,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5941,7 +5941,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5954,7 +5954,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -5971,7 +5971,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5984,7 +5984,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -5997,7 +5997,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6010,7 +6010,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6023,7 +6023,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6036,7 +6036,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6049,7 +6049,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6062,7 +6062,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6075,7 +6075,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6088,7 +6088,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6101,7 +6101,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6114,7 +6114,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6128,7 +6128,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6141,7 +6141,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6154,7 +6154,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6169,7 +6169,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6184,7 +6184,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6199,7 +6199,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6215,7 +6215,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6228,7 +6228,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6245,7 +6245,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6258,7 +6258,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6275,7 +6275,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6292,7 +6292,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6305,7 +6305,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6318,7 +6318,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6331,7 +6331,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6348,7 +6348,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6365,7 +6365,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6378,7 +6378,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6391,7 +6391,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6404,7 +6404,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6417,7 +6417,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6430,7 +6430,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6443,7 +6443,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6460,7 +6460,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6477,7 +6477,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6490,7 +6490,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6503,7 +6503,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6516,7 +6516,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6529,7 +6529,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6546,7 +6546,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6563,7 +6563,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6580,7 +6580,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6597,7 +6597,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6614,7 +6614,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6631,7 +6631,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6648,7 +6648,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6665,7 +6665,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6682,7 +6682,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6699,7 +6699,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6714,7 +6714,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6729,7 +6729,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6746,7 +6746,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6761,7 +6761,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 2;
@@ -6776,7 +6776,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6793,7 +6793,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6810,7 +6810,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6827,7 +6827,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6840,7 +6840,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6853,7 +6853,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6867,7 +6867,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 1;
@@ -6885,7 +6885,7 @@ struct st_mpc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL : 5;
 			unsigned char  : 3;
@@ -6901,7 +6901,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -6914,7 +6914,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -6929,7 +6929,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -6942,7 +6942,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -6957,7 +6957,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -6970,7 +6970,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -6985,7 +6985,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -6998,7 +6998,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -7013,7 +7013,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -7026,7 +7026,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -7041,7 +7041,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -7054,7 +7054,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -7069,7 +7069,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -7082,7 +7082,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -7097,7 +7097,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long RSPN : 28;
@@ -7110,7 +7110,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long V : 1;
 			unsigned long UAC : 3;
@@ -7126,7 +7126,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MPEN : 1;
 			unsigned long  : 31;
@@ -7139,7 +7139,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 1;
 			unsigned long UBAC : 3;
@@ -7154,7 +7154,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long CLR : 1;
 			unsigned long  : 31;
@@ -7167,7 +7167,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long IMPER : 1;
 			unsigned long DMPER : 1;
@@ -7185,7 +7185,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long DEA : 32;
 #else
@@ -7197,7 +7197,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long SA : 32;
 #else
@@ -7208,7 +7208,7 @@ struct st_mpu {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short S : 1;
 			unsigned short  : 15;
@@ -7221,7 +7221,7 @@ struct st_mpu {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short INV : 1;
 			unsigned short  : 15;
@@ -7234,7 +7234,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 1;
 			unsigned long UHACI : 3;
@@ -7253,7 +7253,7 @@ struct st_mpu {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 1;
 			unsigned long UHACD : 3;
@@ -7275,7 +7275,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OE3B : 1;
 			unsigned char OE4A : 1;
@@ -7299,7 +7299,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char UF : 1;
 			unsigned char VF : 1;
@@ -7324,7 +7324,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OLSP : 1;
 			unsigned char OLSN : 1;
@@ -7347,7 +7347,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OLS1P : 1;
 			unsigned char OLS1N : 1;
@@ -7377,7 +7377,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char T4VCOR : 3;
 			unsigned char T4VEN : 1;
@@ -7394,7 +7394,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char T4VCNT : 3;
 			unsigned char  : 1;
@@ -7411,7 +7411,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BTE : 2;
 			unsigned char  : 6;
@@ -7425,7 +7425,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TDER : 1;
 			unsigned char  : 7;
@@ -7439,7 +7439,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OLS1P : 1;
 			unsigned char OLS1N : 1;
@@ -7463,7 +7463,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char WRE : 1;
 			unsigned char  : 6;
@@ -7479,7 +7479,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CST0 : 1;
 			unsigned char CST1 : 1;
@@ -7500,7 +7500,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SYNC0 : 1;
 			unsigned char SYNC1 : 1;
@@ -7522,7 +7522,7 @@ struct st_mtu {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RWE : 1;
 			unsigned char  : 7;
@@ -7538,7 +7538,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -7560,7 +7560,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -7575,7 +7575,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -7594,7 +7594,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -7607,7 +7607,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 4;
 			unsigned char IOD : 4;
@@ -7620,7 +7620,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -7643,7 +7643,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char TCFD : 1;
@@ -7664,7 +7664,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEE : 1;
 			unsigned char TGIEF : 1;
@@ -7680,7 +7680,7 @@ struct st_mtu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TTSA : 1;
 			unsigned char TTSB : 1;
@@ -7701,7 +7701,7 @@ struct st_mtu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -7723,7 +7723,7 @@ struct st_mtu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -7740,7 +7740,7 @@ struct st_mtu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char  : 4;
@@ -7753,7 +7753,7 @@ struct st_mtu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -7767,7 +7767,7 @@ struct st_mtu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -7790,7 +7790,7 @@ struct st_mtu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char TCFD : 1;
@@ -7807,7 +7807,7 @@ struct st_mtu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char I1AE : 1;
 			unsigned char I1BE : 1;
@@ -7829,7 +7829,7 @@ struct st_mtu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -7851,7 +7851,7 @@ struct st_mtu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -7868,7 +7868,7 @@ struct st_mtu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char  : 4;
@@ -7881,7 +7881,7 @@ struct st_mtu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -7895,7 +7895,7 @@ struct st_mtu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -7918,7 +7918,7 @@ struct st_mtu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char TCFD : 1;
@@ -7937,7 +7937,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -7953,7 +7953,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -7971,7 +7971,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -7984,7 +7984,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 4;
 			unsigned char IOD : 4;
@@ -7998,7 +7998,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -8030,7 +8030,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char TCFD : 1;
@@ -8044,7 +8044,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TTSA : 1;
 			unsigned char TTSB : 1;
@@ -8062,7 +8062,7 @@ struct st_mtu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -8087,7 +8087,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -8103,7 +8103,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -8121,7 +8121,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -8134,7 +8134,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 4;
 			unsigned char IOD : 4;
@@ -8148,7 +8148,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -8182,7 +8182,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char TCFD : 1;
@@ -8196,7 +8196,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TTSA : 1;
 			unsigned char TTSB : 1;
@@ -8214,7 +8214,7 @@ struct st_mtu4 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ITB4VE : 1;
 			unsigned short ITB3AE : 1;
@@ -8249,7 +8249,7 @@ struct st_mtu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -8274,7 +8274,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFUEN : 1;
 			unsigned char NFVEN : 1;
@@ -8298,7 +8298,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 2;
 			unsigned char  : 6;
@@ -8312,7 +8312,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 5;
 			unsigned char  : 3;
@@ -8328,7 +8328,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 2;
 			unsigned char  : 6;
@@ -8342,7 +8342,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 5;
 			unsigned char  : 3;
@@ -8358,7 +8358,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 2;
 			unsigned char  : 6;
@@ -8372,7 +8372,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 5;
 			unsigned char  : 3;
@@ -8386,7 +8386,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIE5W : 1;
 			unsigned char TGIE5V : 1;
@@ -8404,7 +8404,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CSTW5 : 1;
 			unsigned char CSTV5 : 1;
@@ -8422,7 +8422,7 @@ struct st_mtu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CMPCLR5W : 1;
 			unsigned char CMPCLR5V : 1;
@@ -8442,7 +8442,7 @@ struct st_poe {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short POE0M : 2;
 			unsigned short POE1M : 2;
@@ -8471,7 +8471,7 @@ struct st_poe {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short OIE1 : 1;
@@ -8491,7 +8491,7 @@ struct st_poe {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short POE8M : 2;
 			unsigned short  : 6;
@@ -8514,7 +8514,7 @@ struct st_poe {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CH34HIZ : 1;
 			unsigned char CH0HIZ : 1;
@@ -8529,7 +8529,7 @@ struct st_poe {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PE0ZE : 1;
 			unsigned char PE1ZE : 1;
@@ -8548,7 +8548,7 @@ struct st_poe {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char P3CZEA : 1;
@@ -8568,7 +8568,7 @@ struct st_poe {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 9;
 			unsigned short OSTSTE : 1;
@@ -8590,7 +8590,7 @@ struct st_pdc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long PCKE : 1;
 			unsigned long VPS : 1;
@@ -8627,7 +8627,7 @@ struct st_pdc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long PCE : 1;
 			unsigned long  : 31;
@@ -8640,7 +8640,7 @@ struct st_pdc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long FBSY : 1;
 			unsigned long FEMPF : 1;
@@ -8665,7 +8665,7 @@ struct st_pdc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long VSYNC : 1;
 			unsigned long HSYNC : 1;
@@ -8683,7 +8683,7 @@ struct st_pdc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long VST : 12;
 			unsigned long  : 4;
@@ -8700,7 +8700,7 @@ struct st_pdc {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long HST : 12;
 			unsigned long  : 4;
@@ -8720,7 +8720,7 @@ struct st_port {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSEL0 : 1;
 			unsigned char PSEL1 : 1;
@@ -8743,7 +8743,7 @@ struct st_port {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char PSEL6 : 1;
@@ -8761,7 +8761,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -8787,7 +8787,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -8813,7 +8813,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -8839,7 +8839,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -8865,7 +8865,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -8890,7 +8890,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 2;
 			unsigned char B2 : 1;
@@ -8910,7 +8910,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -8936,7 +8936,7 @@ struct st_port0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -8956,7 +8956,7 @@ struct st_port1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -8982,7 +8982,7 @@ struct st_port1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9008,7 +9008,7 @@ struct st_port1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9034,7 +9034,7 @@ struct st_port1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9060,7 +9060,7 @@ struct st_port1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9085,7 +9085,7 @@ struct st_port1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9111,7 +9111,7 @@ struct st_port1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9139,7 +9139,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9165,7 +9165,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9191,7 +9191,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9217,7 +9217,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9243,7 +9243,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9268,7 +9268,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9294,7 +9294,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9320,7 +9320,7 @@ struct st_port2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char B7 : 1;
@@ -9336,7 +9336,7 @@ struct st_port3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9362,7 +9362,7 @@ struct st_port3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9388,7 +9388,7 @@ struct st_port3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9414,7 +9414,7 @@ struct st_port3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9440,7 +9440,7 @@ struct st_port3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9465,7 +9465,7 @@ struct st_port3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9491,7 +9491,7 @@ struct st_port3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9519,7 +9519,7 @@ struct st_port4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9545,7 +9545,7 @@ struct st_port4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9571,7 +9571,7 @@ struct st_port4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9597,7 +9597,7 @@ struct st_port4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9623,7 +9623,7 @@ struct st_port4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9648,7 +9648,7 @@ struct st_port4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9674,7 +9674,7 @@ struct st_port4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9702,7 +9702,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9728,7 +9728,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9754,7 +9754,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9780,7 +9780,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9806,7 +9806,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9831,7 +9831,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -9857,7 +9857,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9883,7 +9883,7 @@ struct st_port5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9907,7 +9907,7 @@ struct st_port6 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9933,7 +9933,7 @@ struct st_port6 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9959,7 +9959,7 @@ struct st_port6 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -9985,7 +9985,7 @@ struct st_port6 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10011,7 +10011,7 @@ struct st_port6 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10036,7 +10036,7 @@ struct st_port6 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10062,7 +10062,7 @@ struct st_port6 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10090,7 +10090,7 @@ struct st_port7 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10116,7 +10116,7 @@ struct st_port7 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10142,7 +10142,7 @@ struct st_port7 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10168,7 +10168,7 @@ struct st_port7 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10194,7 +10194,7 @@ struct st_port7 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10219,7 +10219,7 @@ struct st_port7 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10245,7 +10245,7 @@ struct st_port7 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10273,7 +10273,7 @@ struct st_port8 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10299,7 +10299,7 @@ struct st_port8 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10325,7 +10325,7 @@ struct st_port8 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10351,7 +10351,7 @@ struct st_port8 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10377,7 +10377,7 @@ struct st_port8 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10402,7 +10402,7 @@ struct st_port8 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10428,7 +10428,7 @@ struct st_port8 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10456,7 +10456,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10482,7 +10482,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10508,7 +10508,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10534,7 +10534,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10560,7 +10560,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10585,7 +10585,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10611,7 +10611,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10637,7 +10637,7 @@ struct st_port9 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10665,7 +10665,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10691,7 +10691,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10717,7 +10717,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10743,7 +10743,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10769,7 +10769,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10794,7 +10794,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -10820,7 +10820,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10846,7 +10846,7 @@ struct st_porta {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10874,7 +10874,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10900,7 +10900,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10926,7 +10926,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10952,7 +10952,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -10978,7 +10978,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11003,7 +11003,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11029,7 +11029,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11055,7 +11055,7 @@ struct st_portb {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11083,7 +11083,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11109,7 +11109,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11135,7 +11135,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11161,7 +11161,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11187,7 +11187,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11212,7 +11212,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11238,7 +11238,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11264,7 +11264,7 @@ struct st_portc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11292,7 +11292,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11318,7 +11318,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11344,7 +11344,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11370,7 +11370,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11396,7 +11396,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11421,7 +11421,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11447,7 +11447,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11473,7 +11473,7 @@ struct st_portd {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11501,7 +11501,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11527,7 +11527,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11553,7 +11553,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11579,7 +11579,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11605,7 +11605,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11630,7 +11630,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11656,7 +11656,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11682,7 +11682,7 @@ struct st_porte {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11710,7 +11710,7 @@ struct st_portf {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11734,7 +11734,7 @@ struct st_portf {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11758,7 +11758,7 @@ struct st_portf {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11782,7 +11782,7 @@ struct st_portf {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11806,7 +11806,7 @@ struct st_portf {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11831,7 +11831,7 @@ struct st_portf {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -11849,7 +11849,7 @@ struct st_portf {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11875,7 +11875,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11901,7 +11901,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11927,7 +11927,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11953,7 +11953,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -11979,7 +11979,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -12004,7 +12004,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char  : 1;
@@ -12030,7 +12030,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -12056,7 +12056,7 @@ struct st_portg {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char B0 : 1;
 			unsigned char B1 : 1;
@@ -12074,7 +12074,7 @@ struct st_portj {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char B3 : 1;
@@ -12094,7 +12094,7 @@ struct st_portj {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char B3 : 1;
@@ -12114,7 +12114,7 @@ struct st_portj {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char B3 : 1;
@@ -12134,7 +12134,7 @@ struct st_portj {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char B3 : 1;
@@ -12154,7 +12154,7 @@ struct st_portj {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 6;
 			unsigned char B6 : 1;
@@ -12169,7 +12169,7 @@ struct st_portj {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 2;
 			unsigned char B2 : 1;
@@ -12185,7 +12185,7 @@ struct st_portj {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char B3 : 1;
@@ -12207,7 +12207,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char G0CMS : 2;
 			unsigned char G1CMS : 2;
@@ -12224,7 +12224,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char G0NOV : 1;
 			unsigned char G1NOV : 1;
@@ -12249,7 +12249,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDER8 : 1;
 			unsigned char NDER9 : 1;
@@ -12274,7 +12274,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDER0 : 1;
 			unsigned char NDER1 : 1;
@@ -12299,7 +12299,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char POD8 : 1;
 			unsigned char POD9 : 1;
@@ -12324,7 +12324,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char POD0 : 1;
 			unsigned char POD1 : 1;
@@ -12349,7 +12349,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR8 : 1;
 			unsigned char NDR9 : 1;
@@ -12374,7 +12374,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR0 : 1;
 			unsigned char NDR1 : 1;
@@ -12399,7 +12399,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR8 : 1;
 			unsigned char NDR9 : 1;
@@ -12418,7 +12418,7 @@ struct st_ppg0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR0 : 1;
 			unsigned char NDR1 : 1;
@@ -12440,7 +12440,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PTRSL : 1;
 			unsigned char  : 7;
@@ -12454,7 +12454,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char G0CMS : 2;
 			unsigned char G1CMS : 2;
@@ -12471,7 +12471,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char G0NOV : 1;
 			unsigned char G1NOV : 1;
@@ -12496,7 +12496,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDER24 : 1;
 			unsigned char NDER25 : 1;
@@ -12521,7 +12521,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDER16 : 1;
 			unsigned char NDER17 : 1;
@@ -12546,7 +12546,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char POD24 : 1;
 			unsigned char POD25 : 1;
@@ -12571,7 +12571,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char POD16 : 1;
 			unsigned char POD17 : 1;
@@ -12596,7 +12596,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR24 : 1;
 			unsigned char NDR25 : 1;
@@ -12621,7 +12621,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR16 : 1;
 			unsigned char NDR17 : 1;
@@ -12646,7 +12646,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR24 : 1;
 			unsigned char NDR25 : 1;
@@ -12665,7 +12665,7 @@ struct st_ppg1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NDR16 : 1;
 			unsigned char NDR17 : 1;
@@ -12687,7 +12687,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SDAI : 1;
 			unsigned char SCLI : 1;
@@ -12712,7 +12712,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 1;
 			unsigned char ST : 1;
@@ -12737,7 +12737,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BC : 3;
 			unsigned char BCWP : 1;
@@ -12754,7 +12754,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TMOS : 1;
 			unsigned char TMOL : 1;
@@ -12775,7 +12775,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NF : 2;
 			unsigned char ACKBR : 1;
@@ -12798,7 +12798,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TMOE : 1;
 			unsigned char MALE : 1;
@@ -12823,7 +12823,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SAR0E : 1;
 			unsigned char SAR1E : 1;
@@ -12848,7 +12848,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TMOIE : 1;
 			unsigned char ALIE : 1;
@@ -12873,7 +12873,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char AAS0 : 1;
 			unsigned char AAS1 : 1;
@@ -12898,7 +12898,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TMOF : 1;
 			unsigned char AL : 1;
@@ -12924,7 +12924,7 @@ struct st_riic {
 	   union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SVA0 : 1;
 			unsigned char SVA : 7;
@@ -12942,7 +12942,7 @@ struct st_riic {
 	   union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char FS : 1;
 			unsigned char SVA : 2;
@@ -12961,7 +12961,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SVA0 : 1;
 			unsigned char SVA : 7;
@@ -12974,7 +12974,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char FS : 1;
 			unsigned char SVA : 2;
@@ -12989,7 +12989,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SVA0 : 1;
 			unsigned char SVA : 7;
@@ -13002,7 +13002,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char FS : 1;
 			unsigned char SVA : 2;
@@ -13017,7 +13017,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BRL : 5;
 			unsigned char  : 3;
@@ -13030,7 +13030,7 @@ struct st_riic {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BRH : 5;
 			unsigned char  : 3;
@@ -13048,7 +13048,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SPMS : 1;
 			unsigned char TXMD : 1;
@@ -13073,7 +13073,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SSL0P : 1;
 			unsigned char SSL1P : 1;
@@ -13092,7 +13092,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SPLP : 1;
 			unsigned char SPLP2 : 1;
@@ -13113,7 +13113,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OVRF : 1;
 			unsigned char IDLNF : 1;
@@ -13144,7 +13144,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SPSLN : 3;
 			unsigned char  : 5;
@@ -13157,7 +13157,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SPCP : 3;
 			unsigned char  : 1;
@@ -13175,7 +13175,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SPFC : 2;
 			unsigned char  : 2;
@@ -13194,7 +13194,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SCKDL : 3;
 			unsigned char  : 5;
@@ -13207,7 +13207,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SLNDL : 3;
 			unsigned char  : 5;
@@ -13220,7 +13220,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SPNDL : 3;
 			unsigned char  : 5;
@@ -13233,7 +13233,7 @@ struct st_rspi {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SPPE : 1;
 			unsigned char SPOE : 1;
@@ -13252,7 +13252,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13281,7 +13281,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13310,7 +13310,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13339,7 +13339,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13368,7 +13368,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13397,7 +13397,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13426,7 +13426,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13455,7 +13455,7 @@ struct st_rspi {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CPHA : 1;
 			unsigned short CPOL : 1;
@@ -13487,7 +13487,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char F64HZ : 1;
 			unsigned char F32HZ : 1;
@@ -13513,7 +13513,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SEC1 : 4;
 			unsigned char SEC10 : 3;
@@ -13529,7 +13529,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MIN1 : 4;
 			unsigned char MIN10 : 3;
@@ -13545,7 +13545,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char HR1 : 4;
 			unsigned char HR10 : 2;
@@ -13563,7 +13563,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DAYW : 3;
 			unsigned char  : 5;
@@ -13577,7 +13577,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DATE1 : 4;
 			unsigned char DATE10 : 2;
@@ -13593,7 +13593,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MON1 : 4;
 			unsigned char MON10 : 1;
@@ -13609,7 +13609,7 @@ struct st_rtc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short YR1 : 4;
 			unsigned short YR10 : 4;
@@ -13624,7 +13624,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SEC1 : 4;
 			unsigned char SEC10 : 3;
@@ -13640,7 +13640,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MIN1 : 4;
 			unsigned char MIN10 : 3;
@@ -13656,7 +13656,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char HR1 : 4;
 			unsigned char HR10 : 2;
@@ -13674,7 +13674,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DAYW : 3;
 			unsigned char  : 4;
@@ -13690,7 +13690,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DATE1 : 4;
 			unsigned char DATE10 : 2;
@@ -13708,7 +13708,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MON1 : 4;
 			unsigned char MON10 : 1;
@@ -13726,7 +13726,7 @@ struct st_rtc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short YR1 : 4;
 			unsigned short YR10 : 4;
@@ -13741,7 +13741,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char ENB : 1;
@@ -13755,7 +13755,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char AIE : 1;
 			unsigned char CIE : 1;
@@ -13775,7 +13775,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char START : 1;
 			unsigned char RESET : 1;
@@ -13801,7 +13801,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RTCEN : 1;
 			unsigned char RTCDV : 3;
@@ -13817,7 +13817,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RCKSEL : 1;
 			unsigned char  : 7;
@@ -13831,7 +13831,7 @@ struct st_rtc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RFC : 1;
 			unsigned short  : 15;
@@ -13844,7 +13844,7 @@ struct st_rtc {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RFC : 16;
 #else
@@ -13855,7 +13855,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ADJ : 6;
 			unsigned char PMADJ : 2;
@@ -13869,7 +13869,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TCCT : 2;
 			unsigned char TCST : 1;
@@ -13891,7 +13891,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TCCT : 2;
 			unsigned char TCST : 1;
@@ -13913,7 +13913,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TCCT : 2;
 			unsigned char TCST : 1;
@@ -13935,7 +13935,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SEC1 : 4;
 			unsigned char SEC10 : 3;
@@ -13951,7 +13951,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MIN1 : 4;
 			unsigned char MIN10 : 3;
@@ -13967,7 +13967,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char HR1 : 4;
 			unsigned char HR10 : 2;
@@ -13985,7 +13985,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DATE1 : 4;
 			unsigned char DATE10 : 3;
@@ -14001,7 +14001,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MON1 : 4;
 			unsigned char MON10 : 1;
@@ -14017,7 +14017,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SEC1 : 4;
 			unsigned char SEC10 : 3;
@@ -14033,7 +14033,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MIN1 : 4;
 			unsigned char MIN10 : 3;
@@ -14049,7 +14049,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char HR1 : 4;
 			unsigned char HR10 : 2;
@@ -14067,7 +14067,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DATE1 : 4;
 			unsigned char DATE10 : 3;
@@ -14083,7 +14083,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MON1 : 4;
 			unsigned char MON10 : 1;
@@ -14099,7 +14099,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SEC1 : 4;
 			unsigned char SEC10 : 3;
@@ -14115,7 +14115,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MIN1 : 4;
 			unsigned char MIN10 : 3;
@@ -14131,7 +14131,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char HR1 : 4;
 			unsigned char HR10 : 2;
@@ -14149,7 +14149,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DATE1 : 4;
 			unsigned char DATE10 : 3;
@@ -14165,7 +14165,7 @@ struct st_rtc {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MON1 : 4;
 			unsigned char MON10 : 1;
@@ -14183,7 +14183,7 @@ struct st_s12ad {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char EXTRG : 1;
 			unsigned char TRGE : 1;
@@ -14207,7 +14207,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ANS0 : 16;
 #else
@@ -14218,7 +14218,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ANS1 : 5;
 			unsigned short  : 11;
@@ -14231,7 +14231,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ADS0 : 16;
 #else
@@ -14242,7 +14242,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ADS1 : 5;
 			unsigned short  : 11;
@@ -14255,7 +14255,7 @@ struct st_s12ad {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ADC : 2;
 			unsigned char  : 6;
@@ -14269,7 +14269,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 5;
 			unsigned short ACE : 1;
@@ -14286,7 +14286,7 @@ struct st_s12ad {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ADSTRS : 4;
 			unsigned char  : 4;
@@ -14300,7 +14300,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short TSSAD : 1;
 			unsigned short OCSAD : 1;
@@ -14347,7 +14347,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short SST1 : 8;
 			unsigned short  : 8;
@@ -14361,7 +14361,7 @@ struct st_s12ad {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short SST2 : 8;
@@ -14377,7 +14377,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKS : 2;
 			unsigned char MP : 1;
@@ -14401,7 +14401,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKE : 2;
 			unsigned char TEIE : 1;
@@ -14425,7 +14425,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MPBT : 1;
 			unsigned char MPB : 1;
@@ -14451,7 +14451,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SMIF : 1;
 			unsigned char  : 1;
@@ -14472,7 +14472,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ACS0 : 1;
 			unsigned char  : 3;
@@ -14491,7 +14491,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFCS : 3;
 			unsigned char  : 5;
@@ -14504,7 +14504,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICM : 1;
 			unsigned char  : 2;
@@ -14519,7 +14519,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICINTM : 1;
 			unsigned char IICCSC : 1;
@@ -14538,7 +14538,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICSTAREQ : 1;
 			unsigned char IICRSTAREQ : 1;
@@ -14559,7 +14559,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICACKR : 1;
 			unsigned char  : 7;
@@ -14572,7 +14572,7 @@ struct st_sci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SSE : 1;
 			unsigned char CTSE : 1;
@@ -14600,7 +14600,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKS : 2;
 			unsigned char MP : 1;
@@ -14624,7 +14624,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKE : 2;
 			unsigned char TEIE : 1;
@@ -14648,7 +14648,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MPBT : 1;
 			unsigned char MPB : 1;
@@ -14674,7 +14674,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SMIF : 1;
 			unsigned char  : 1;
@@ -14695,7 +14695,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ACS0 : 1;
 			unsigned char  : 3;
@@ -14714,7 +14714,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFCS : 3;
 			unsigned char  : 5;
@@ -14727,7 +14727,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICM : 1;
 			unsigned char  : 2;
@@ -14742,7 +14742,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICINTM : 1;
 			unsigned char IICCSC : 1;
@@ -14761,7 +14761,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICSTAREQ : 1;
 			unsigned char IICRSTAREQ : 1;
@@ -14782,7 +14782,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IICACKR : 1;
 			unsigned char  : 7;
@@ -14795,7 +14795,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SSE : 1;
 			unsigned char CTSE : 1;
@@ -14821,7 +14821,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ESME : 1;
 			unsigned char  : 7;
@@ -14834,7 +14834,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 1;
 			unsigned char SFSF : 1;
@@ -14853,7 +14853,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BFE : 1;
 			unsigned char CF0RE : 1;
@@ -14872,7 +14872,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DFCS : 3;
 			unsigned char  : 1;
@@ -14889,7 +14889,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SDST : 1;
 			unsigned char  : 7;
@@ -14902,7 +14902,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TXDXPS : 1;
 			unsigned char RXDXPS : 1;
@@ -14921,7 +14921,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BFDIE : 1;
 			unsigned char CF0MIE : 1;
@@ -14944,7 +14944,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BFDF : 1;
 			unsigned char CF0MF : 1;
@@ -14967,7 +14967,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BFDCL : 1;
 			unsigned char CF0MCL : 1;
@@ -14991,7 +14991,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CF0CE0 : 1;
 			unsigned char CF0CE1 : 1;
@@ -15019,7 +15019,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CF1CE0 : 1;
 			unsigned char CF1CE1 : 1;
@@ -15045,7 +15045,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TCST : 1;
 			unsigned char  : 7;
@@ -15058,7 +15058,7 @@ struct st_sci12 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TOMS : 2;
 			unsigned char  : 1;
@@ -15082,7 +15082,7 @@ struct st_smci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKS : 2;
 			unsigned char BCP : 2;
@@ -15104,7 +15104,7 @@ struct st_smci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKE : 2;
 			unsigned char TEIE : 1;
@@ -15128,7 +15128,7 @@ struct st_smci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MPBT : 1;
 			unsigned char MPB : 1;
@@ -15152,7 +15152,7 @@ struct st_smci0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SMIF : 1;
 			unsigned char  : 1;
@@ -15176,7 +15176,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short MD : 1;
 			unsigned short  : 15;
@@ -15189,7 +15189,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 5;
 			unsigned short UBTS : 1;
@@ -15205,7 +15205,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short ROME : 1;
 			unsigned short EXBE : 1;
@@ -15222,7 +15222,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RAME : 1;
 			unsigned short  : 15;
@@ -15236,7 +15236,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 14;
 			unsigned short OPE : 1;
@@ -15252,7 +15252,7 @@ struct st_system {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 4;
 			unsigned long MSTPA4 : 1;
@@ -15309,7 +15309,7 @@ struct st_system {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MSTPB0 : 1;
 			unsigned long MSTPB1 : 1;
@@ -15368,7 +15368,7 @@ struct st_system {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long MSTPC0 : 1;
 			unsigned long MSTPC1 : 1;
@@ -15407,7 +15407,7 @@ struct st_system {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long  : 31;
 			unsigned long MSTPD31 : 1;
@@ -15420,7 +15420,7 @@ struct st_system {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long : 8;
 			unsigned long PCKB : 4;
@@ -15447,7 +15447,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short IEBCK : 4;
 			unsigned short UCK : 4;
@@ -15462,7 +15462,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short CKSEL : 3;
@@ -15477,7 +15477,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PLIDIV : 2;
 			unsigned short  : 6;
@@ -15494,7 +15494,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PLLEN : 1;
 			unsigned char  : 7;
@@ -15508,7 +15508,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char BCLKDIV : 1;
 			unsigned char  : 7;
@@ -15522,7 +15522,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MOSTP : 1;
 			unsigned char  : 7;
@@ -15535,7 +15535,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SOSTP : 1;
 			unsigned char  : 7;
@@ -15548,7 +15548,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LCSTP : 1;
 			unsigned char  : 7;
@@ -15561,7 +15561,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char ILCSTP : 1;
 			unsigned char  : 7;
@@ -15574,7 +15574,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char HCSTP : 1;
 			unsigned char  : 7;
@@ -15588,7 +15588,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OSTDIE : 1;
 			unsigned char  : 6;
@@ -15603,7 +15603,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OSTDF : 1;
 			unsigned char  : 7;
@@ -15617,7 +15617,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OPCM : 3;
 			unsigned char  : 1;
@@ -15634,7 +15634,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char RSTCKSEL : 3;
 			unsigned char  : 4;
@@ -15649,7 +15649,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MSTS : 5;
 			unsigned char  : 3;
@@ -15662,7 +15662,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SSTS : 5;
 			unsigned char  : 3;
@@ -15676,7 +15676,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PSTS : 5;
 			unsigned char  : 3;
@@ -15690,7 +15690,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IWDTRF : 1;
 			unsigned char WDTRF : 1;
@@ -15710,7 +15710,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LVD1IDTSEL : 2;
 			unsigned char  : 6;
@@ -15723,7 +15723,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LVD1DET : 1;
 			unsigned char LVD1MON : 1;
@@ -15738,7 +15738,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LVD2IDTSEL : 2;
 			unsigned char  : 6;
@@ -15751,7 +15751,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LVD2DET : 1;
 			unsigned char LVD2MON : 1;
@@ -15767,7 +15767,7 @@ struct st_system {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PRC0 : 1;
 			unsigned short PRC1 : 1;
@@ -15789,7 +15789,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DEEPCUT : 2;
 			unsigned char  : 4;
@@ -15807,7 +15807,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DIRQ0E : 1;
 			unsigned char DIRQ1E : 1;
@@ -15832,7 +15832,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DIRQ8E : 1;
 			unsigned char DIRQ9E : 1;
@@ -15857,7 +15857,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DLVD1IE : 1;
 			unsigned char DLVD2IE : 1;
@@ -15882,7 +15882,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DCANIE : 1;
 			unsigned char  : 7;
@@ -15895,7 +15895,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DIRQ0F : 1;
 			unsigned char DIRQ1F : 1;
@@ -15920,7 +15920,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DIRQ8F : 1;
 			unsigned char DIRQ9F : 1;
@@ -15945,7 +15945,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DLVD1IF : 1;
 			unsigned char DLVD2IF : 1;
@@ -15970,7 +15970,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DCANIF : 1;
 			unsigned char  : 7;
@@ -15983,7 +15983,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DIRQ0EG : 1;
 			unsigned char DIRQ1EG : 1;
@@ -16008,7 +16008,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DIRQ8EG : 1;
 			unsigned char DIRQ9EG : 1;
@@ -16033,7 +16033,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DLVD1EG : 1;
 			unsigned char DLVD2EG : 1;
@@ -16056,7 +16056,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char DCANIEG : 1;
 			unsigned char  : 7;
@@ -16070,7 +16070,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char PORF : 1;
 			unsigned char LVD0RF : 1;
@@ -16091,7 +16091,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CWSF : 1;
 			unsigned char  : 7;
@@ -16105,7 +16105,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MOFXIN : 1;
 			unsigned char  : 7;
@@ -16118,7 +16118,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char HOCOPCNT : 1;
 			unsigned char  : 7;
@@ -16132,7 +16132,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 5;
 			unsigned char LVD1E : 1;
@@ -16149,7 +16149,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LVD1LVL : 4;
 			unsigned char LVD2LVL : 4;
@@ -16163,7 +16163,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LVD1RIE : 1;
 			unsigned char LVD1DFDIS : 1;
@@ -16186,7 +16186,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char LVD2RIE : 1;
 			unsigned char LVD2DFDIS : 1;
@@ -16212,7 +16212,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SCK : 2;
 			unsigned char  : 6;
@@ -16226,7 +16226,7 @@ struct st_system {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SCK : 2;
 			unsigned char  : 6;
@@ -16242,7 +16242,7 @@ struct st_temps {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 4;
 			unsigned char TSOE : 1;
@@ -16267,7 +16267,7 @@ struct st_tmr0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char CCLR : 2;
@@ -16287,7 +16287,7 @@ struct st_tmr0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OSA : 2;
 			unsigned char OSB : 2;
@@ -16311,7 +16311,7 @@ struct st_tmr0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKS : 3;
 			unsigned char CSS : 2;
@@ -16331,7 +16331,7 @@ struct st_tmr1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 3;
 			unsigned char CCLR : 2;
@@ -16351,7 +16351,7 @@ struct st_tmr1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char OSA : 2;
 			unsigned char OSB : 2;
@@ -16373,7 +16373,7 @@ struct st_tmr1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CKS : 3;
 			unsigned char CSS : 2;
@@ -16400,7 +16400,7 @@ struct st_tpu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -16422,7 +16422,7 @@ struct st_tpu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -16437,7 +16437,7 @@ struct st_tpu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -16456,7 +16456,7 @@ struct st_tpu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -16469,7 +16469,7 @@ struct st_tpu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 4;
 			unsigned char IOD : 4;
@@ -16482,7 +16482,7 @@ struct st_tpu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -16507,7 +16507,7 @@ struct st_tpu0 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGFA : 1;
 			unsigned char TGFB : 1;
@@ -16541,7 +16541,7 @@ struct st_tpu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -16563,7 +16563,7 @@ struct st_tpu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -16578,7 +16578,7 @@ struct st_tpu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -16597,7 +16597,7 @@ struct st_tpu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -16611,7 +16611,7 @@ struct st_tpu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -16636,7 +16636,7 @@ struct st_tpu1 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGFA : 1;
 			unsigned char TGFB : 1;
@@ -16667,7 +16667,7 @@ struct st_tpu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -16689,7 +16689,7 @@ struct st_tpu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -16704,7 +16704,7 @@ struct st_tpu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -16723,7 +16723,7 @@ struct st_tpu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -16737,7 +16737,7 @@ struct st_tpu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -16762,7 +16762,7 @@ struct st_tpu2 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGFA : 1;
 			unsigned char TGFB : 1;
@@ -16794,7 +16794,7 @@ struct st_tpu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -16816,7 +16816,7 @@ struct st_tpu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -16831,7 +16831,7 @@ struct st_tpu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -16850,7 +16850,7 @@ struct st_tpu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -16863,7 +16863,7 @@ struct st_tpu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOC : 4;
 			unsigned char IOD : 4;
@@ -16876,7 +16876,7 @@ struct st_tpu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -16901,7 +16901,7 @@ struct st_tpu3 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGFA : 1;
 			unsigned char TGFB : 1;
@@ -16934,7 +16934,7 @@ struct st_tpu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -16956,7 +16956,7 @@ struct st_tpu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -16971,7 +16971,7 @@ struct st_tpu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -16990,7 +16990,7 @@ struct st_tpu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -17004,7 +17004,7 @@ struct st_tpu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -17029,7 +17029,7 @@ struct st_tpu4 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGFA : 1;
 			unsigned char TGFB : 1;
@@ -17061,7 +17061,7 @@ struct st_tpu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char NFAEN : 1;
 			unsigned char NFBEN : 1;
@@ -17083,7 +17083,7 @@ struct st_tpu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TPSC : 3;
 			unsigned char CKEG : 2;
@@ -17098,7 +17098,7 @@ struct st_tpu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char MD : 4;
 			unsigned char BFA : 1;
@@ -17117,7 +17117,7 @@ struct st_tpu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char IOA : 4;
 			unsigned char IOB : 4;
@@ -17131,7 +17131,7 @@ struct st_tpu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGIEA : 1;
 			unsigned char TGIEB : 1;
@@ -17156,7 +17156,7 @@ struct st_tpu5 {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char TGFA : 1;
 			unsigned char TGFB : 1;
@@ -17187,7 +17187,7 @@ struct st_tpua {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CST0 : 1;
 			unsigned char CST1 : 1;
@@ -17210,7 +17210,7 @@ struct st_tpua {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SYNC0 : 1;
 			unsigned char SYNC1 : 1;
@@ -17236,7 +17236,7 @@ struct st_tpub {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char CST6 : 1;
 			unsigned char CST7 : 1;
@@ -17259,7 +17259,7 @@ struct st_tpub {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char SYNC6 : 1;
 			unsigned char SYNC7 : 1;
@@ -17285,7 +17285,7 @@ struct st_usb {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long SRPC0 : 1;
 			unsigned long  : 3;
@@ -17332,7 +17332,7 @@ struct st_usb {
 	union {
 		unsigned long LONG;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned long DPINTE0 : 1;
 			unsigned long DMINTE0 : 1;
@@ -17388,7 +17388,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short USBE : 1;
 			unsigned short  : 3;
@@ -17414,7 +17414,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short LNST : 2;
 			unsigned short IDMON : 1;
@@ -17436,7 +17436,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RHST : 3;
 			unsigned short  : 1;
@@ -17492,7 +17492,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CURPIPE : 4;
 			unsigned short  : 1;
@@ -17521,7 +17521,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DTLN : 9;
 			unsigned short  : 4;
@@ -17541,7 +17541,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CURPIPE : 4;
 			unsigned short  : 4;
@@ -17570,7 +17570,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DTLN : 9;
 			unsigned short  : 4;
@@ -17589,7 +17589,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CURPIPE : 4;
 			unsigned short  : 4;
@@ -17618,7 +17618,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DTLN : 9;
 			unsigned short  : 4;
@@ -17637,7 +17637,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short BRDYE : 1;
@@ -17664,7 +17664,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 4;
 			unsigned short SACKE : 1;
@@ -17694,7 +17694,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BRDYE : 1;
 			unsigned short PIPE1BRDYE : 1;
@@ -17725,7 +17725,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0NRDYE : 1;
 			unsigned short PIPE1NRDYE : 1;
@@ -17756,7 +17756,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BEMPE : 1;
 			unsigned short PIPE1BEMPE : 1;
@@ -17787,7 +17787,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 4;
 			unsigned short EDGESTS : 1;
@@ -17811,7 +17811,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CTSQ : 3;
 			unsigned short VALID : 1;
@@ -17844,7 +17844,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 4;
 			unsigned short SACK : 1;
@@ -17874,7 +17874,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BRDY : 1;
 			unsigned short PIPE1BRDY : 1;
@@ -17905,7 +17905,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0NRDY : 1;
 			unsigned short PIPE1NRDY : 1;
@@ -17936,7 +17936,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BEMP : 1;
 			unsigned short PIPE1BEMP : 1;
@@ -17967,7 +17967,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FRNM : 11;
 			unsigned short  : 3;
@@ -17984,7 +17984,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 15;
 			unsigned short DVCHG : 1;
@@ -17997,7 +17997,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short USBADDR : 7;
 			unsigned short  : 1;
@@ -18015,7 +18015,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short BMREQUESTTYPE : 8;
 			unsigned short BREQUEST : 8;
@@ -18031,7 +18031,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 4;
 			unsigned short DIR : 1;
@@ -18050,7 +18050,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short MXPS : 7;
 			unsigned short  : 5;
@@ -18065,7 +18065,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short CCPL : 1;
@@ -18099,7 +18099,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPESEL : 4;
 			unsigned short  : 12;
@@ -18113,7 +18113,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EPNUM : 4;
 			unsigned short DIR : 1;
@@ -18141,7 +18141,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short MXPS : 9;
 			unsigned short  : 3;
@@ -18156,7 +18156,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short IITV : 3;
 			unsigned short  : 9;
@@ -18173,7 +18173,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18204,7 +18204,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18235,7 +18235,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18266,7 +18266,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18297,7 +18297,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18328,7 +18328,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18355,7 +18355,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18382,7 +18382,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18409,7 +18409,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -18437,7 +18437,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -18455,7 +18455,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -18473,7 +18473,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -18491,7 +18491,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -18509,7 +18509,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -18528,7 +18528,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -18543,7 +18543,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -18558,7 +18558,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -18573,7 +18573,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -18588,7 +18588,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -18603,7 +18603,7 @@ struct st_usb0 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -18621,7 +18621,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short USBE : 1;
 			unsigned short  : 3;
@@ -18647,7 +18647,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short LNST : 2;
 			unsigned short IDMON : 1;
@@ -18669,7 +18669,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short RHST : 3;
 			unsigned short  : 1;
@@ -18707,7 +18707,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CURPIPE : 4;
 			unsigned short  : 1;
@@ -18736,7 +18736,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DTLN : 9;
 			unsigned short  : 4;
@@ -18756,7 +18756,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CURPIPE : 4;
 			unsigned short  : 4;
@@ -18785,7 +18785,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DTLN : 9;
 			unsigned short  : 4;
@@ -18804,7 +18804,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CURPIPE : 4;
 			unsigned short  : 4;
@@ -18833,7 +18833,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short DTLN : 9;
 			unsigned short  : 4;
@@ -18852,7 +18852,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short BRDYE : 1;
@@ -18880,7 +18880,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BRDYE : 1;
 			unsigned short PIPE1BRDYE : 1;
@@ -18911,7 +18911,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0NRDYE : 1;
 			unsigned short PIPE1NRDYE : 1;
@@ -18942,7 +18942,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BEMPE : 1;
 			unsigned short PIPE1BEMPE : 1;
@@ -18973,7 +18973,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 4;
 			unsigned short EDGESTS : 1;
@@ -18993,7 +18993,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CTSQ : 3;
 			unsigned short VALID : 1;
@@ -19027,7 +19027,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BRDY : 1;
 			unsigned short PIPE1BRDY : 1;
@@ -19058,7 +19058,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0NRDY : 1;
 			unsigned short PIPE1NRDY : 1;
@@ -19089,7 +19089,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPE0BEMP : 1;
 			unsigned short PIPE1BEMP : 1;
@@ -19120,7 +19120,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short FRNM : 11;
 			unsigned short  : 3;
@@ -19137,7 +19137,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 15;
 			unsigned short DVCHG : 1;
@@ -19150,7 +19150,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short USBADDR : 7;
 			unsigned short  : 1;
@@ -19168,7 +19168,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short BMREQUESTTYPE : 8;
 			unsigned short BREQUEST : 8;
@@ -19184,7 +19184,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 4;
 			unsigned short DIR : 1;
@@ -19203,7 +19203,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short MXPS : 7;
 			unsigned short  : 5;
@@ -19218,7 +19218,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short CCPL : 1;
@@ -19252,7 +19252,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PIPESEL : 4;
 			unsigned short  : 12;
@@ -19266,7 +19266,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short EPNUM : 4;
 			unsigned short DIR : 1;
@@ -19294,7 +19294,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short MXPS : 9;
 			unsigned short  : 3;
@@ -19309,7 +19309,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short IITV : 3;
 			unsigned short  : 9;
@@ -19326,7 +19326,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19357,7 +19357,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19388,7 +19388,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19419,7 +19419,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19450,7 +19450,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19481,7 +19481,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19508,7 +19508,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19535,7 +19535,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19562,7 +19562,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short PID : 2;
 			unsigned short  : 3;
@@ -19590,7 +19590,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -19608,7 +19608,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -19626,7 +19626,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -19644,7 +19644,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -19662,7 +19662,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 8;
 			unsigned short TRCLR : 1;
@@ -19681,7 +19681,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -19696,7 +19696,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -19711,7 +19711,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -19726,7 +19726,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -19741,7 +19741,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -19756,7 +19756,7 @@ struct st_usb1 {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short : 6;
 			unsigned short USBSPD : 2;
@@ -19776,7 +19776,7 @@ struct st_wdt {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short TOPS : 2;
 			unsigned short  : 2;
@@ -19799,7 +19799,7 @@ struct st_wdt {
 	union {
 		unsigned short WORD;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned short CNTVAL : 14;
 			unsigned short UNDFF : 1;
@@ -19814,7 +19814,7 @@ struct st_wdt {
 	union {
 		unsigned char BYTE;
 		struct {
-			
+
 #ifdef __RX_LITTLE_ENDIAN__
 			unsigned char : 7;
 			unsigned char RSTIRQS : 1;

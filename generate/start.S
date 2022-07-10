@@ -7,18 +7,18 @@
 
     .list
     .section .text
-    
+
     .extern _HardwareSetup  /*external Sub-routine to initialise Hardware*/
     .extern _data
     .extern _mdata
     .extern _ebss
     .extern _bss
     .extern _edata
-    .extern _main 
+    .extern _main
     .extern _ustack
     .extern _istack
     .extern _rvectors
-    
+
     .global _PowerON_Reset    /*global Start routine */
 	.type   _PowerON_Reset,@function
 _PowerON_Reset :
@@ -36,7 +36,7 @@ _PowerON_Reset :
     mvtc    #_rvectors_start, intb    /* INTERRUPT VECTOR ADDRESS  definition    */
 
 /* setup FPSW */
-    mvtc    #100h, fpsw    
+    mvtc    #100h, fpsw
 
 /* load data section from ROM to RAM */
 
@@ -96,7 +96,7 @@ _PowerON_Reset :
 #ifdef CPPAPP
     mov    #__rx_init,r7
     jsr    r7
-#endif    
+#endif
 
 /* start user program */
     mov    #_main,r7
@@ -172,7 +172,7 @@ __rx_fini:
     .balign 4
     .global __gp
     .weak   __gp
-__gp:   
+__gp:
 
     .section .data
     .global ___dso_handle
@@ -186,7 +186,7 @@ ___dso_handle:
      mov    #_rx_run_init_array,r7
      jsr    r7
      rts
-     
+
     .global __rx_init_end
     .type   __rx_init_end,@function
 __rx_init_end:
@@ -199,10 +199,10 @@ __rx_init_end:
 __rx_fini_end:
 
 #else
-    .global __rx_fini 
+    .global __rx_fini
     .type   __rx_fini,@function
-__rx_fini: 
-    rts 
+__rx_fini:
+    rts
 #endif
 
     .global _exit
@@ -214,6 +214,6 @@ _exit:
     jsr r7
 _loop_here:
     bra _loop_here
-    
-    .text    
+
+    .text
     .end

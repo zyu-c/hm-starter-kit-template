@@ -5,7 +5,7 @@ PROJECT_NAME = project_name
 
 ASRCS = generate/start.S
 CSRCS = $(wildcard generate/*.c) $(wildcard include/*.c) $(wildcard src/*.c)
-CPSRCS = $(wildcard include/*.cpp) $(wildcard src/*.cpp)
+CPSRCS = $(wildcard generate/*.cpp) $(wildcard include/*.cpp) $(wildcard src/*.cpp)
 
 INCLUDE_DIR = ./generate ./include
 
@@ -47,6 +47,10 @@ build/src/%.o: src/%.cpp
 	$(CP) $(CFLAGS) $(INCLUDE) -DCPPAPP -Wa,-adlnh=$(patsubst %.o,%.lst,$@) -MMD -MP -MF$(patsubst %.o,%.d,$@) -MT$@  -c $^ -o $@
 
 build/include/%.o: include/%.cpp
+	@mkdir -p $(dir $@)
+	$(CP) $(CFLAGS) $(INCLUDE) -DCPPAPP -Wa,-adlnh=$(patsubst %.o,%.lst,$@) -MMD -MP -MF$(patsubst %.o,%.d,$@) -MT$@  -c $^ -o $@
+
+build/generate/%.o: generate/%.cpp
 	@mkdir -p $(dir $@)
 	$(CP) $(CFLAGS) $(INCLUDE) -DCPPAPP -Wa,-adlnh=$(patsubst %.o,%.lst,$@) -MMD -MP -MF$(patsubst %.o,%.d,$@) -MT$@  -c $^ -o $@
 
