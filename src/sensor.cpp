@@ -80,4 +80,27 @@ void Sensor::ledOff() {
     PORT3.PODR.BIT.B1 = 0;
 }
 
-uint16_t Sensor::getValue(sensor_dir_t dir) { return sensor[dir]; }
+uint16_t Sensor::getSensorValue(sensor_dir_t dir) { return sensor[dir]; }
+
+void Sensor::updateBatteryVoltage() {
+    S12AD.ADANS0.WORD = 0x0200;
+    S12AD.ADCSR.BIT.ADST = 1;
+    while (S12AD.ADCSR.BIT.ADST)
+        ;
+    battery_voltage = S12AD.ADDR9 * 330 * 2 / 4096;
+}
+
+uint16_t Sensor::getBatteryVoltage() { return battery_voltage; }
+
+bool Sensor::isLowBattery() {
+    // LiPoの適正電圧について
+    // 最大電圧 : 4.2V
+    // 標準電圧 : 3.7V
+    // 最低電圧 : 3.5V
+
+    if (battery_voltage < 350) {
+        return true;
+    } else {
+        return false;
+    }
+}

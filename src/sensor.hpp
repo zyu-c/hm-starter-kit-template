@@ -10,7 +10,9 @@ typedef enum { left_front, left, right, right_front } sensor_dir_t;
 
 class Sensor {
    private:
-    uint8_t sensor[4];
+    uint16_t sensor[4];
+    uint16_t battery_voltage;
+
     void initInfraredLight();
     void initAdc();
 
@@ -19,5 +21,8 @@ class Sensor {
     void update();
     void ledOn();
     void ledOff();
-    uint16_t getValue(sensor_dir_t dir);
+    uint16_t getSensorValue(sensor_dir_t dir);
+    void updateBatteryVoltage();
+    uint16_t getBatteryVoltage();
+    bool isLowBattery();
 };
