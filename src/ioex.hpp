@@ -13,7 +13,11 @@ class Ioex {
 
     void send();
 
+    static Ioex* ioex_p;
+
    public:
+    static Ioex* getInstance();
+
     void on(uint8_t port);
     void off(uint8_t port);
     void set(uint8_t port, bool state);

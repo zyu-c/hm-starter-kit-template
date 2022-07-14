@@ -1,5 +1,15 @@
 #include "ioex.hpp"
 
+Ioex* Ioex::ioex_p = nullptr;
+
+Ioex* Ioex::getInstance() {
+    if (!ioex_p) {
+        ioex_p = new Ioex();
+    }
+
+    return ioex_p;
+}
+
 void Ioex::send() {
     uint8_t a = 0x00;
     a |= (led_state & 0x08) >> 1;
