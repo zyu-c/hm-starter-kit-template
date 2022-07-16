@@ -1,10 +1,16 @@
 #include "ioex.hpp"
 
+extern "C" {
+#include <cstdlib>
+
+#include "i2c.h"
+}
+
 Ioex* Ioex::ioex_p = nullptr;
 
 Ioex* Ioex::getInstance() {
     if (!ioex_p) {
-        ioex_p = new Ioex();
+        ioex_p = (Ioex*)malloc(sizeof(Ioex));
     }
 
     return ioex_p;

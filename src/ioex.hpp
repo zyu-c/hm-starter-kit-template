@@ -1,9 +1,5 @@
 #pragma once
 
-extern "C" {
-#include "i2c.h"
-}
-
 #include <cstdint>
 
 class Ioex {
