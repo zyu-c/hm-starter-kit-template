@@ -36,5 +36,4 @@ void initClock() {
 void init() {
     initClock();
     init_sci();
-    init_I2C();
 }
