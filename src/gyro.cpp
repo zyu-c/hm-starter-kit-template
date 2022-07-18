@@ -7,6 +7,8 @@ extern "C" {
 #include "sci.h"
 }
 
+#define MY_PI 3.14159265358979323
+
 Gyro* Gyro::gyro_p = nullptr;
 
 Gyro* Gyro::getInstance() {
@@ -234,32 +236,32 @@ void Gyro::read() {
 
 void Gyro::updateXAccel() {
     preprocess_read(0x2D);
-    x_accel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+    x_accel = 2.0 * (int16_t)data_tmp / 32767;
 }
 
 void Gyro::updateYAccel() {
     preprocess_read(0x2F);
-    y_accel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+    y_accel = 2.0 * (int16_t)data_tmp / 32767;
 }
 
 void Gyro::updateZAccel() {
     preprocess_read(0x31);
-    z_accel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+    z_accel = 2.0 * (int16_t)data_tmp / 32767;
 }
 
 void Gyro::updateXAngVel() {
     preprocess_read(0x33);
-    x_ang_vel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+    x_ang_vel = 2000.0 * (int16_t)data_tmp / 32767 * MY_PI / 180;
 }
 
 void Gyro::updateYAngVel() {
     preprocess_read(0x35);
-    y_ang_vel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+    y_ang_vel = 2000.0 * (int16_t)data_tmp / 32767 * MY_PI / 180;
 }
 
 void Gyro::updateZAngVel() {
     preprocess_read(0x37);
-    z_ang_vel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+    z_ang_vel = 2000.0 * (int16_t)data_tmp / 32767 * MY_PI / 180;
 }
 
 void Gyro::update() {
@@ -271,9 +273,9 @@ void Gyro::update() {
     updateZAngVel();
 }
 
-int16_t Gyro::getXAccel() { return x_accel; }
-int16_t Gyro::getYAccel() { return y_accel; }
-int16_t Gyro::getZAccel() { return z_accel; }
-int16_t Gyro::getXAngVel() { return x_ang_vel; }
-int16_t Gyro::getYAngVel() { return y_ang_vel; }
-int16_t Gyro::getZAngVel() { return z_ang_vel; }
+float Gyro::getXAccel() { return x_accel; }
+float Gyro::getYAccel() { return y_accel; }
+float Gyro::getZAccel() { return z_accel; }
+float Gyro::getXAngVel() { return x_ang_vel; }
+float Gyro::getYAngVel() { return y_ang_vel; }
+float Gyro::getZAngVel() { return z_ang_vel; }

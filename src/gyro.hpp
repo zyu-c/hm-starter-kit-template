@@ -10,12 +10,12 @@ class Gyro {
     uint16_t data_tmp;
     bool finished_write;
 
-    int16_t x_accel;
-    int16_t y_accel;
-    int16_t z_accel;
-    int16_t x_ang_vel;
-    int16_t y_ang_vel;
-    int16_t z_ang_vel;
+    float x_accel;
+    float y_accel;
+    float z_accel;
+    float x_ang_vel;
+    float y_ang_vel;
+    float z_ang_vel;
 
     void updateXAccel();
     void updateYAccel();
@@ -38,10 +38,10 @@ class Gyro {
     void idle();
     void read();
 
-    int16_t getXAccel();
-    int16_t getYAccel();
-    int16_t getZAccel();
-    int16_t getXAngVel();
-    int16_t getYAngVel();
-    int16_t getZAngVel();
+    float getXAccel();
+    float getYAccel();
+    float getZAccel();
+    float getXAngVel();
+    float getYAngVel();
+    float getZAngVel();
 };
