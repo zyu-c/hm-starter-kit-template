@@ -6,10 +6,6 @@
 #include "gyro.hpp"
 
 extern "C" {
-#include "spi.h"
-}
-
-extern "C" {
 __attribute__((interrupt)) void INT_Excep_CMT0_CMI0(void) { delay_cnt++; }
 
 __attribute__((interrupt)) void INT_Excep_CMT1_CMI1(void) { control(); }
