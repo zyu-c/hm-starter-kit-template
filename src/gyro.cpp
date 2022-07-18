@@ -124,6 +124,20 @@ void Gyro::init() {
 
     // RSPI制御レジスタ(SPCR)のリード
     RSPI1.SPCR.BYTE;
+
+    setupSlave();
+}
+
+void Gyro::setupSlave() {
+    // Bank2へ
+    preprocess_write(0x7F, 0x20);
+    // Gyroを2000dps化
+    preprocess_write(0x01, 0x07);
+
+    // Bank0へ
+    preprocess_write(0x7F, 0x00);
+    // スタート
+    preprocess_write(0x06, 0x21);
 }
 
 void Gyro::preprocess_write(uint8_t address, uint8_t data) {
@@ -218,4 +232,48 @@ void Gyro::read() {
     RSPI1.SPCR.BIT.SPRIE = 0;
 }
 
-uint16_t Gyro::getData() { return data_tmp; }
+void Gyro::updateXAccel() {
+    preprocess_read(0x2D);
+    x_accel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+}
+
+void Gyro::updateYAccel() {
+    preprocess_read(0x2F);
+    y_accel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+}
+
+void Gyro::updateZAccel() {
+    preprocess_read(0x31);
+    z_accel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+}
+
+void Gyro::updateXAngVel() {
+    preprocess_read(0x33);
+    x_ang_vel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+}
+
+void Gyro::updateYAngVel() {
+    preprocess_read(0x35);
+    y_ang_vel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+}
+
+void Gyro::updateZAngVel() {
+    preprocess_read(0x37);
+    z_ang_vel = (int16_t)((int32_t)data_tmp & 0xFFFFFFFF);
+}
+
+void Gyro::update() {
+    updateXAccel();
+    updateYAccel();
+    updateZAccel();
+    updateXAngVel();
+    updateYAngVel();
+    updateZAngVel();
+}
+
+int16_t Gyro::getXAccel() { return x_accel; }
+int16_t Gyro::getYAccel() { return y_accel; }
+int16_t Gyro::getZAccel() { return z_accel; }
+int16_t Gyro::getXAngVel() { return x_ang_vel; }
+int16_t Gyro::getYAngVel() { return y_ang_vel; }
+int16_t Gyro::getZAngVel() { return z_ang_vel; }
