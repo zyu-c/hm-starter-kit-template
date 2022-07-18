@@ -17,7 +17,7 @@ Encoder* Encoder::getInstance() {
 }
 
 void Encoder::init() {
-    // MTU0有効化
+    // RSPI0有効化
     SYSTEM.PRCR.WORD = 0xA502;
     MSTP(RSPI0) = 0;
     SYSTEM.PRCR.WORD = 0xA500;
@@ -134,13 +134,6 @@ void Encoder::init() {
 }
 
 void Encoder::preprocess() {
-    while (RSPI0.SPCR.BIT.SPTIE) {
-    }
-    while (RSPI0.SPCR2.BIT.SPIIE) {
-    }
-    while (RSPI0.SPCR.BIT.SPRIE) {
-    }
-
     finished_write = false;
 
     // エラー要因のクリア
@@ -160,10 +153,15 @@ void Encoder::preprocess() {
     RSPI0.SPCR.BIT.SPTIE = 1;
     // RSPI受信割り込み要求の発生を許可
     RSPI0.SPCR.BIT.SPRIE = 1;
-    // RSPIエラー割り込み要求の発生を許可
-    RSPI0.SPCR.BIT.SPEIE = 1;
     // RSPIを有効化
     RSPI0.SPCR.BIT.SPE = 1;
+
+    while (RSPI0.SPCR.BIT.SPTIE) {
+    }
+    while (RSPI0.SPCR2.BIT.SPIIE) {
+    }
+    while (RSPI0.SPCR.BIT.SPRIE) {
+    }
 }
 
 void Encoder::write() {
