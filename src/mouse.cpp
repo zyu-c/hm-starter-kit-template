@@ -1,10 +1,22 @@
 #include "mouse.hpp"
 
 extern "C" {
+#include <cstdlib>
+
 #include "iodefine.h"
 }
 
-Mouse::Mouse() {
+Mouse* Mouse::mouse_p = nullptr;
+
+Mouse* Mouse::getInstance() {
+    if (!mouse_p) {
+        mouse_p = (Mouse*)malloc(sizeof(Mouse));
+    }
+
+    return mouse_p;
+}
+
+void Mouse::init() {
     initClock();
     init_sci();
     initPeripheral();

@@ -11,12 +11,13 @@
 #include "sensor.hpp"
 
 extern "C" {
-#include "iodefine.h"
 #include "sci.h"
 }
 
 class Mouse {
    private:
+    static Mouse* mouse_p;
+
     void initClock();
     void initPeripheral();
     void checkBattery();
@@ -29,5 +30,6 @@ class Mouse {
     Motor* motor;
     Sensor* sensor;
 
-    Mouse();
+    static Mouse* getInstance();
+    void init();
 };
