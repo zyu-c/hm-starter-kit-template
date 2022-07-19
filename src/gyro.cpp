@@ -34,7 +34,7 @@ void Gyro::init() {
 
     // RSPIビットレートレジスタ(SPBR)の設定
     // 分周比 1/48 1MHz
-    RSPI1.SPBR = 5;
+    RSPI1.SPBR = 3;
 
     // RSPIデータコントロールレジスタ(SPDCR)の設定
     // フレーム数は1
@@ -59,7 +59,7 @@ void Gyro::init() {
     // RSPIコマンドレジスタ(SPCMD)の設定
     RSPI1.SPCMD0.BIT.CPHA = 1;
     RSPI1.SPCMD0.BIT.CPOL = 1;
-    RSPI1.SPCMD0.BIT.BRDV = 1;
+    RSPI1.SPCMD0.BIT.BRDV = 0;
     RSPI1.SPCMD0.BIT.SSLA = 0;
     RSPI1.SPCMD0.BIT.SSLKP = 0;
     RSPI1.SPCMD0.BIT.SPB = 15;
