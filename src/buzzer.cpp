@@ -1,5 +1,21 @@
 #include "buzzer.hpp"
 
+extern "C" {
+#include <cstdlib>
+
+#include "iodefine.h"
+}
+
+Buzzer* Buzzer::buzzer_p = nullptr;
+
+Buzzer* Buzzer::getInstance() {
+    if (!buzzer_p) {
+        buzzer_p = (Buzzer*)malloc(sizeof(Buzzer));
+    }
+
+    return buzzer_p;
+}
+
 void Buzzer::init() {
     // MTU2有効化
     SYSTEM.PRCR.WORD = 0xA502;

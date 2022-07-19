@@ -1,5 +1,21 @@
 #include "motor.hpp"
 
+extern "C" {
+#include <cstdlib>
+
+#include "iodefine.h"
+}
+
+Motor* Motor::motor_p = nullptr;
+
+Motor* Motor::getInstance() {
+    if (!motor_p) {
+        motor_p = (Motor*)malloc(sizeof(Motor));
+    }
+
+    return motor_p;
+}
+
 void Motor::init() {
     // MTU0有効化
     SYSTEM.PRCR.WORD = 0xA502;

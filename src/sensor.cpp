@@ -1,5 +1,21 @@
 #include "sensor.hpp"
 
+extern "C" {
+#include <cstdlib>
+
+#include "iodefine.h"
+}
+
+Sensor* Sensor::sensor_p = nullptr;
+
+Sensor* Sensor::getInstance() {
+    if (!sensor_p) {
+        sensor_p = (Sensor*)malloc(sizeof(Sensor));
+    }
+
+    return sensor_p;
+}
+
 void Sensor::initInfraredLight() {
     // ポート出力設定
     PORTA.PDR.BIT.B3 = 1;
@@ -66,6 +82,14 @@ void Sensor::update() {
     sensor[3] = S12AD.ADDR6;
 }
 
+void Sensor::updateBatteryVoltage() {
+    S12AD.ADANS0.WORD = 0x0200;
+    S12AD.ADCSR.BIT.ADST = 1;
+    while (S12AD.ADCSR.BIT.ADST)
+        ;
+    battery_voltage = S12AD.ADDR9 * 330 * 2 / 4096;
+}
+
 void Sensor::ledOn() {
     PORTA.PODR.BIT.B3 = 1;
     PORT1.PODR.BIT.B5 = 1;
@@ -81,14 +105,6 @@ void Sensor::ledOff() {
 }
 
 uint16_t Sensor::getSensorValue(sensor_dir_t dir) { return sensor[dir]; }
-
-void Sensor::updateBatteryVoltage() {
-    S12AD.ADANS0.WORD = 0x0200;
-    S12AD.ADCSR.BIT.ADST = 1;
-    while (S12AD.ADCSR.BIT.ADST)
-        ;
-    battery_voltage = S12AD.ADDR9 * 330 * 2 / 4096;
-}
 
 uint16_t Sensor::getBatteryVoltage() { return battery_voltage; }
 
