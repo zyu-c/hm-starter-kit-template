@@ -4,7 +4,6 @@ extern "C" {
 #include <cstdlib>
 
 #include "iodefine.h"
-#include "sci.h"
 }
 
 #define MY_PI 3.14159265358979323
