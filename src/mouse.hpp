@@ -20,6 +20,7 @@ class Mouse {
 
     void initClock();
     void initPeripheral();
+    void initControllerTimer();
     void checkBattery();
 
    public:
@@ -32,4 +33,9 @@ class Mouse {
 
     static Mouse* getInstance();
     void init();
+
+    void control();
+
+    void startControllerTimer();
+    void stopControllerTimer();
 };
