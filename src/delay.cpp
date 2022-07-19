@@ -11,7 +11,7 @@ void initDelayTimer() {
     // 割り込みを許可
     CMT0.CMCR.BIT.CMIE = 1;
     ICU.IR[28].BIT.IR = 0;
-    ICU.IPR[4].BIT.IPR = 14;
+    ICU.IPR[4].BIT.IPR = 13;
     ICU.IER[3].BIT.IEN4 = 1;
 
     // 128分周

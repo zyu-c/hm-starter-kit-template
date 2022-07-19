@@ -105,7 +105,7 @@ void Mouse::initControllerTimer() {
     // 割り込みを許可
     CMT1.CMCR.BIT.CMIE = 1;
     ICU.IR[29].BIT.IR = 0;
-    ICU.IPR[5].BIT.IPR = 13;
+    ICU.IPR[5].BIT.IPR = 14;
     ICU.IER[3].BIT.IEN5 = 1;
 
     // 128分周
