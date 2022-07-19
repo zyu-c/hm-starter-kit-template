@@ -65,7 +65,12 @@ void Buzzer::init() {
     MTU.TSTR.BIT.CST2 = 1;
 }
 
-void Buzzer::setFreq(float freq) { frequency = freq; }
+void Buzzer::setFreq(float freq) {
+    frequency = freq;
+    if (MTU2.TGRA) {
+        on();
+    }
+}
 
 void Buzzer::on() {
     MTU2.TGRA = 12e6 / frequency - 1;

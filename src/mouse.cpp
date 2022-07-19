@@ -25,13 +25,12 @@ void Mouse::init() {
 
     checkBattery();
 
+    buzzer->on();
     for (int i = 0; i < 30; i++) {
         if (i % 5 == 0) {
             buzzer->setFreq(3000);
-            buzzer->on();
         } else {
             buzzer->setFreq(2000);
-            buzzer->on();
         }
 
         ioex->set(i);
