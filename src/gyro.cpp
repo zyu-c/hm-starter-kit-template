@@ -211,7 +211,7 @@ void Gyro::preprocess_read(uint8_t address) {
     }
 }
 
-void Gyro::write() {
+void Gyro::int_write() {
     if (!finished_write) {
         RSPI1.SPDR.LONG = send_data;
         // 送信割り込み禁止
@@ -223,12 +223,12 @@ void Gyro::write() {
     finished_write = true;
 }
 
-void Gyro::idle() {
+void Gyro::int_idle() {
     RSPI1.SPCR.BIT.SPE = 0;
     RSPI1.SPCR2.BIT.SPIIE = 0;
 }
 
-void Gyro::read() {
+void Gyro::int_read() {
     data_tmp = RSPI1.SPDR.LONG;
     RSPI1.SPCR.BIT.SPRIE = 0;
 }

@@ -11,22 +11,22 @@ __attribute__((interrupt)) void INT_Excep_CMT0_CMI0(void) { delay_cnt++; }
 __attribute__((interrupt)) void INT_Excep_CMT1_CMI1(void) { control(); }
 
 __attribute__((interrupt)) void INT_Excep_RSPI0_SPRI0(void) {
-    Encoder::getInstance()->read();
+    Encoder::getInstance()->int_read();
 }
 __attribute__((interrupt)) void INT_Excep_RSPI0_SPTI0(void) {
-    Encoder::getInstance()->write();
+    Encoder::getInstance()->int_write();
 }
 __attribute__((interrupt)) void INT_Excep_RSPI0_SPII0(void) {
-    Encoder::getInstance()->idle();
+    Encoder::getInstance()->int_idle();
 }
 
 __attribute__((interrupt)) void INT_Excep_RSPI1_SPRI1(void) {
-    Gyro::getInstance()->read();
+    Gyro::getInstance()->int_read();
 }
 __attribute__((interrupt)) void INT_Excep_RSPI1_SPTI1(void) {
-    Gyro::getInstance()->write();
+    Gyro::getInstance()->int_write();
 }
 __attribute__((interrupt)) void INT_Excep_RSPI1_SPII1(void) {
-    Gyro::getInstance()->idle();
+    Gyro::getInstance()->int_idle();
 }
 }

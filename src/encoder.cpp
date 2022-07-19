@@ -164,7 +164,7 @@ void Encoder::preprocess() {
     }
 }
 
-void Encoder::write() {
+void Encoder::int_write() {
     if (!finished_write) {
         RSPI0.SPDR.WORD.H = 0x0000;
         // 送信割り込み禁止
@@ -175,12 +175,12 @@ void Encoder::write() {
     finished_write = true;
 }
 
-void Encoder::idle() {
+void Encoder::int_idle() {
     RSPI0.SPCR.BIT.SPE = 0;
     RSPI0.SPCR2.BIT.SPIIE = 0;
 }
 
-void Encoder::read() {
+void Encoder::int_read() {
     data_tmp = RSPI0.SPDR.WORD.H;
     RSPI0.SPCR.BIT.SPRIE = 0;
 }

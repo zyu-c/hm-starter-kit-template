@@ -17,9 +17,9 @@ class Encoder {
 
     void init();
 
-    void write();
-    void idle();
-    void read();
+    void int_write();
+    void int_idle();
+    void int_read();
 
     void update();
     uint16_t getPosition(uint8_t port);

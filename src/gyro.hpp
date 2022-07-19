@@ -31,12 +31,12 @@ class Gyro {
    public:
     static Gyro* getInstance();
 
+    void int_write();
+    void int_idle();
+    void int_read();
+
     void init();
     void update();
-
-    void write();
-    void idle();
-    void read();
 
     float getXAccel();
     float getYAccel();
