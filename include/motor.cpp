@@ -87,19 +87,19 @@ void Motor::setDuty(uint8_t port, float duty) {
         case 0:
             if (duty >= 0) {
                 PORTC.PODR.BIT.B4 = 1;
-                MTU0.TGRA = duty * 240;
+                MTU0.TGRC = duty * 240;
             } else {
                 PORTC.PODR.BIT.B4 = 0;
-                MTU0.TGRA = duty * -240;
+                MTU0.TGRC = duty * -240;
             }
             return;
         case 1:
             if (duty >= 0) {
                 PORTC.PODR.BIT.B5 = 0;
-                MTU0.TGRC = duty * 240;
+                MTU0.TGRA = duty * 240;
             } else {
                 PORTC.PODR.BIT.B5 = 1;
-                MTU0.TGRC = duty * -240;
+                MTU0.TGRA = duty * -240;
             }
             return;
         default:
