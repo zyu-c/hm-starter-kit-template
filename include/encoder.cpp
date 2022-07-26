@@ -189,12 +189,12 @@ void Encoder::update() {
     // 右エンコーダ値取得
     RSPI0.SPCMD0.BIT.SSLA = 0;
     preprocess();
-    position[0] = data_tmp;
+    position[0] = 1023 - data_tmp;
 
     // 左エンコーダ値取得
     RSPI0.SPCMD0.BIT.SSLA = 2;
     preprocess();
-    position[1] = 1023 - data_tmp;
+    position[1] = data_tmp;
 }
 
 uint16_t Encoder::getPosition(uint8_t port) { return position[port]; }
