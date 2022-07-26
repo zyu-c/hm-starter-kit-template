@@ -7,7 +7,7 @@ ASRCS = generate/start.S
 CSRCS = $(wildcard generate/*.c) $(wildcard include/*.c) $(wildcard src/*.c)
 CPSRCS = $(wildcard generate/*.cpp) $(wildcard include/*.cpp) $(wildcard src/*.cpp)
 
-INCLUDE_DIR = ./generate ./include
+INCLUDE_DIR = ./generate ./include ./src
 
 OBJS = $(addprefix build/, $(patsubst %.S, %.o, $(ASRCS))) \
 	   $(addprefix build/, $(patsubst %.c, %.o, $(CSRCS))) \
